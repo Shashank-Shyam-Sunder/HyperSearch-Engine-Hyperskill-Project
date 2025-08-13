@@ -21,8 +21,8 @@ The HyperSearch Engine is designed to search through a collection of text docume
 HyperSearch Engine/
 ├── README.md            # This file
 ├── .gitignore           # Git ignore file
+├── LICENSE              # Project license
 ├── requirements_project.txt  # Project dependencies
-├── requirements.txt     # Test dependencies
 └── task/
     ├── task.py          # Main search engine implementation
     └── corpus/          # Document collection for searching
@@ -181,3 +181,7 @@ Calculates the cosine similarity between two vectors.
 - The script expects to run from the task directory
 - Corpus folder should be in the same directory as task.py
 - Use proper Windows path separators when modifying file paths
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
